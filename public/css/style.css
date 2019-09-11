@@ -1,0 +1,85 @@
+.body {
+    background-color: #ffffff !important;
+}
+.page-header {
+    border-bottom: 1px #e4e0e0 solid;
+    padding-bottom: 10px;
+}
+div.settings-menu a.list-group-item {
+    border-radius: 0 !important;
+    padding: 0.45rem 1.25rem;
+}
+div.settings-menu .card-header {
+    padding: .45rem 1.25rem !important;
+}
+div.bottom-menu {
+    padding:10px;
+    background:#eee;
+}
+.title-header {
+    font-family: Arial,Helvetica,sans-serif;
+    color: #929292;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+ul.sidebar-menu {
+        list-style: none;
+        padding: 10px;
+        margin-left: 20px;
+    }
+
+    ul.sidebar-menu a li {
+        position: relative;
+        right: 20px;
+        color: #67696c;
+        font-weight: bold;
+        margin-top: 10px;
+        border-bottom: 1px solid #ccc;
+        text-decoration: none;
+    }
+
+    ul.sidebar-menu a:hover {
+        text-decoration: none;
+    }
+
+    ul.sidebar-menu a li:hover {
+        color: #000;
+    }
+
+button, a.button {
+  cursor: pointer;
+  outline: none;
+}
+button.outline, 
+button, a.button {
+        position: relative;
+        z-index: 3;
+        background: transparent;
+        color: #1172c4;
+        font-size: 14px;
+        border-color: #1172c4;
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 22px;
+        padding: 7px 10px;
+        text-transform: uppercase;
+        transition: all 0.2s linear;
+}
+button.outline a, a.button {
+            text-decoration: none;
+}
+
+button.outline:hover,.button.outline:hover {
+        color: white;
+        background: #1172c4;
+        border-color: white;
+        transition: all 0.2s linear;
+}
+button.outline:active,a.button:active {
+        border-radius: 22px;
+}
+
+
+
+
